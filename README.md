@@ -40,9 +40,6 @@ Follow the [React Native Getting Started Guide](https://facebook.github.io/react
 4. [Procedure to Train Model](#4-procedure-to-train-model)
 5. [Procedure to Test on new images](#5-procedure-to-test-on-new-images)
 6. [Configurations (config.py)](#6-configurations-configpy)
-7. [Frequently encountered problems](#7-frequently-encountered-problems)
-8. [TODO](#8-todo)
-9. [References](#9-references)
 
 ## 1. Requirements
 
@@ -140,11 +137,3 @@ Required libraries for Python along with their version numbers used while making
 3. **`dense_units`** :- Number of Dense units in Decoder(RNN) Model
 4. **`dropout`** :- Dropout probability used in Dropout layer in Decoder(RNN) Model
 
-## 7. Frequently encountered problems
-
-- **Out of memory issue**:
-  - Try reducing `batch_size`
-- **Results differ everytime I run script**:
-  - Due to stochastic nature of these algoritms, results *may* differ slightly everytime. Even though I did set random seed to make results reproducible, results *may* differ slightly.
-- **Results aren't very great using beam search compared to argmax**:
-  - Try higher `k` in BEAM search using `beam_search_k` parameter in config. Note that higher `k` will improve results but it'll also increase inference time significantly.
