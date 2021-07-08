@@ -6,7 +6,31 @@ By -
 3. Asif nawaz
 4. Pranita kaity
 
-A neural network to generate captions for an image using CNN and RNN with BEAM Search.
+Colab link of Machine learning model - https://colab.research.google.com/drive/1pt17ikirVHNBavTvZoRrAhnNJyGNP8BS
+Colab link of Backend - https://colab.research.google.com/drive/1XbJKW1d3MhrrVoK1ivi_5KcIsS0duqQC
+
+A neural network mobile app to generate captions for an image using React native.
+
+
+Follow the [React Native Getting Started Guide](https://facebook.github.io/react-native/docs/getting-started.html) for detailed instructions on setting up your local machine for development.
+
+## How to run
+- Clone repository and install dependencies:
+    ```bash
+    $ git clone https://github.com/mayank1307/imageCaption.git
+    or download the zip & extract
+    $ cd imageCaption
+    $ npm install
+    ```
+
+- Run application
+    ```bash
+    $ npx react-native run-ios
+    ```
+    ```bash
+    $ npx react-native run-android
+    ```
+
 
 ## Table of Contents
 
