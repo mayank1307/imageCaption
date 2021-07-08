@@ -64,8 +64,7 @@ Required libraries for Python along with their version numbers used while making
 - **If you're low on memory**, use google colab or reduce batch size
 - In case of BEAM Search, `loss` and `val_loss` are same as in case of argmax since the model is same
 
-![image](https://user-images.githubusercontent.com/49157639/124942932-af0bd000-e029-11eb-810c-602fc4c1cfd9.png)
-
+![image](https://user-images.githubusercontent.com/49157639/124943102-d367ac80-e029-11eb-9e10-911b8a4e405b.png)
 
 ## 3. Generated Captions on Test Images
 
